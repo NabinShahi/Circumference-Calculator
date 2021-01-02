@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#form{
+/*border: 1px solid purple;*/
+
+position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#inputradius{
+	width: 50vh;
+	height: 5vh;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+#formButton{
+	width: 25vh;
+	height: 5vh;
+	margin-top: 10px;
+	margin: 10px 0px 10px 75px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: blue;
+	border-radius: 5px;
+	border-style: none;
+	color: #ffffff;
+}
